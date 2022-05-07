@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Tourist Destinations in Ireland
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,9 +12,16 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ul>
+    <li [routerLink]="['/cliffs-of-moher']"routerDirection="forward"></li>Cliffs of Moher</li>
+    <li [routerLink]="['/newgrange']"routerDirection="forward"></li>Newgrange</li>
+    <li [routerLink]="['/bunratty-castle']"routerDirection="forward"></li>Bunratty Castle</li>
+    <li [routerLink]="['/glendalough']"routerDirection="forward"></li>Glendalough</li>
+    <li [routerLink]="['/grafton-street']"routerDirection="forward"></li>Grafton Street</li>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+
+  </ul>
+
+  
 </ion-content>
